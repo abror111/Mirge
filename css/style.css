@@ -8,18 +8,21 @@ body{
                     background-color: #FCFCFC;
 }
 .hero{
-                    width: 1050px;
+                    width: 1140px;
                     margin: 0 auto;
                  
 
 }
 main{
+             width: 1440px;
+             margin: 0 auto;
+          
                     background-image: url("../img/Vector34.png");
                     background-image: url("../img/Group32.png");
-                    background-size: 1019.64px 936.3px;
+                    background-size: 100% 100%;
                     background-repeat: no-repeat;
                    background-position:100%;
-               padding-top: 2px;
+                        padding-top: 2px;
 }
 .hero_header_div{
                     display: flex;
@@ -158,6 +161,7 @@ main{
 }
 .card{
                     margin-top:102px;
+                    height: 520px;
 }
 .card-title{
 
@@ -235,12 +239,20 @@ color: #F78CB6;
 .disgn-hero{
                     margin-top:110px;
 }
-.disgn-hero_1  {       
+.disgn-hero_1 {
+       width: 570px;
+       height: 472px;   
+}
+.disgn-hero_12{
+       width: 570px;
+       height: 472px; 
+       margin-right: 79px;    
+}
+.disgn-hero_1{       
 
 width: 570px;
 height: 472px;
-
-margin-left: 21px;
+margin-right: 70px;
 }
 
 .disgn-hero{
@@ -294,6 +306,7 @@ margin-left: 21px;
 
 
 .Teamwork{
+       height: 587px;
                     margin-top:150px;
                     display: flex;
                     justify-content: space-between;
@@ -303,11 +316,17 @@ margin-left: 21px;
                     width: 587px;
                     height: 587px;               
 }
+.Teamwork_2{
+
+       margin-right:80px;               
+}
+
 .Testimonial{
                     margin-top:150px;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    height: 450px;
 }
 
 .Testimonial-1 img{
@@ -315,7 +334,7 @@ margin-left: 21px;
                     height: 418.62px;
 }
 .Testimonial_2{
-       margin-left: 138px;          
+       margin-left: 138.21px;          
 }
 .disign-p1 {
                     font-family: 'Proxima Nova';
@@ -351,6 +370,13 @@ color: #56597A;
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
+                    height: 157px;
+}
+.hero1{
+       width: 1069px;
+       height: 450px;
+       margin: 0 auto;
+      
 }
 .hamkor_list {
 
@@ -371,10 +397,19 @@ color: #56597A;
 .messeg_link{
                     margin-left:84px ;
 }
+.messeg-hero_img{
+       width: 250px;
+        height: 250px;
+}
 .msseg_img{
-                    margin-left: 33px;
+                  
                     width: 250px;
                     height: 250px;
+}
+.hero34{
+       width: 1040px;
+       height: 297px;
+       margin:0 auto;
 }
 .messeg_link h1{
 
@@ -414,7 +449,7 @@ color: #56597A;
                     background: #FFFFFF;
                     border-radius: 4px;  
                     align-items:center;
-                    width: 706px;
+                    width: 534px;
                     height: 64px;
                     box-shadow:5px 5px 5px rgb(243, 240, 240) ;            
 }
@@ -425,16 +460,29 @@ color: #56597A;
                     height: 32px;
 }
 footer{
-                    background-image:url('../img/Vector14.png');
-                    width: 1338.5px;
-                    height: 410.48px;
+             width:1140px;
+       margin: 0 auto; 
+         
+              
+}
+.footer{
+       background-image:url('../img/Vector14.png');
+       background-size:100% 100%;
+       background-repeat:no-repeat;
+
+       width:1440px;
+       margin: 0 auto; 
+    
+      
 }
 .footer_div{
                     margin-top: 80px;
                     display: flex;
                     align-items: center;
-                    justify-content: space-between;             
+                    justify-content: space-between;
+
 }
+
 .botto{
                     padding:10px 25px;
                     background: #F78CB6;
@@ -446,6 +494,7 @@ footer{
 .footer_div ul li{
                     list-style: none;
 }
+
 .footer_2{
                    
                     
@@ -491,6 +540,9 @@ footer{
 .footer_list li{
                     margin-bottom: 37px;
 }
+.lis{
+       padding-left: 110px;
+}
 .footer_list_1{
                     font-family: 'Circular Std';
                     font-style: normal;
@@ -504,8 +556,9 @@ footer{
                     color: #56597A;              
 }
 .footer_di  {
-                    width: 1339px;;
+                    width: 1440px;
                     height: 54px;
+                    margin:0 auto;
                     display:flex;
                     justify-content: space-between;
                     align-items: center;
